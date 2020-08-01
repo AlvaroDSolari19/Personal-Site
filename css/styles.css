@@ -1,0 +1,157 @@
+body{
+
+  color: #40514E;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center; /* The previous will set everything in the center as long as it doesn't have a width set. */
+
+}
+
+h1{
+
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 90px;
+  margin: 50px auto 0;
+
+}
+
+h2{
+
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin-top: 5px;
+
+}
+
+h3{
+
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+p{
+
+  line-height: 2;
+
+}
+
+.top-container{
+
+  background-color: #E4F9F5;
+  padding-top: 100px;
+  position: relative;
+
+}
+
+.bottom-cloud{
+
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
+
+}
+
+.top-cloud{
+
+  position: absolute;
+  top: 50px;
+  right: 400px;
+
+}
+
+.profile-pic{
+
+  margin: 30px auto;
+
+}
+
+.bio{
+
+  margin: 30px auto;
+  width: 30%;
+
+}
+
+hr{
+
+  color: #EAF6F6;
+  border-style: none none dotted none;
+  border-width: 8px;
+  margin: 75px auto;
+  width: 5%;
+
+}
+
+.skill-row{
+
+  margin: 75px auto;
+  text-align: left; /* Since this is more specific than the one on the body, it will override it. */
+  width: 50%;
+
+}
+
+.code-img{
+
+  float: left;
+  margin-right: 30px;
+  width: 25%; /* The width of an image is relative to the parent. In this case, 25% of the width of skill row.  */
+
+}
+
+.hobby-img{
+
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.contact-me{
+
+  margin: 75px auto;
+
+}
+
+a{
+
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+
+}
+
+.btn{
+
+  display: inline-block;
+  margin: 30px auto 0;
+
+}
+
+.bottom-container{
+
+  background-color: #66BFBF;
+  padding: 20px 0;
+
+}
+
+.footer-link{
+
+  display: inline-block;
+  margin: 16px 10px 0;
+
+}
+
+.footer-link:hover{
+
+  color: #EAF6F6;
+
+}
+
+.copyright{
+
+  color: #EAF6F6;
+
+}
